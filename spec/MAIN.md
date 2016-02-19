@@ -7,8 +7,8 @@ MusedBox Spec
 
 The MusedBox is a Raspberry-Pi running a customised Arch Linux distro that has the ability to:
 - Serve web content via a WiFi network broadcast from a WiFi adapter connected to the Pi.
-- Provide a [RESTful JSON API](https://github.com/asyrique/ourjson) that stores it's data in a Mongo database hosted on the box.
-- **In Progress** An [RESTful asset storage service](https://github.com/asyrique/assetstore) that exposes an API similar to Amazon S3, and provides syncing capability with an online asset repository.
+- Provide a [RESTful JSON API](https://github.com/NYUMusEdLab/ourjson) that stores it's data in a Mongo database hosted on the box.
+- **In Progress** An [RESTful asset storage service](https://github.com/NYUMusEdLab/assetstore) that exposes an API similar to Amazon S3, and provides syncing capability with an online asset repository.
 - **In Progress** A [remote management client](https://github.com/asyrique/et-ssh) running over WebSockets that allows remote orchestration debugging.
 - **Planned** An admin UI that will allow on-the-fly configuration of the box, including WiFi network name and key, users, asset-syncing and "installing" apps.
 
